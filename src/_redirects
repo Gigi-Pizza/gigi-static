@@ -1,0 +1,5 @@
+# SPA fallback for Cloudflare Pages: serve the shell for client-side routes
+# (e.g. /ordering) that don't map to a real static file. Existing files
+# (/css/*, /images/*, /menu.html, /favicon.ico) are served directly and take
+# precedence over this catch-all.
+/*  /index.html  200
