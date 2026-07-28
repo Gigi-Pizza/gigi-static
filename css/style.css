@@ -1,0 +1,135 @@
+body {
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+  color: #981b1e;
+}
+
+h1.title {
+  font-size: 50px;
+  -webkit-text-stroke: 1px #c5392e;
+  color: #f6b83c;
+  text-shadow: 3px 3px 0 #c5392e, -1px -1px 0 #c5392e, 1px -1px 0 #c5392e,
+    -1px 1px 0 #c5392e, 1px 1px 0 #c5392e;
+  margin: 20px;
+}
+
+nav {
+  margin: 10px 0;
+}
+.cta {
+  font-size: 18px;
+  margin: 10px 0;
+}
+header h1 {
+  text-align: center;
+  font-size: 18px;
+}
+h1#heading {
+  font-size: 20px;
+}
+footer {
+  text-align: center;
+}
+#logo-wrapper {
+  background-color: #f3f3f3;
+  border-top: 3px solid #f6b83c;
+  border-bottom: 3px solid #f6b83c;
+  padding: 20px 0;
+  display: flex;
+}
+#logo {
+  margin: 0 auto;
+}
+.gigi-logo {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+.gigi-menu {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+.flex {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.menu {
+  max-width: 890px;
+  margin: 5px auto;
+}
+
+.static-info {
+  border: 4px solid #0ed440;
+  font-weight: bold;
+  padding: 12px;
+  width: 75%;
+  margin: 15px auto 0;
+  background-color: #f3f3f3;
+  font-size: 16px;
+}
+
+.dialog-info {
+  border: 4px solid #0ed440;
+  font-weight: bold;
+  padding: 12px;
+  width: 75%;
+  margin: 15px auto 0;
+  background-color: #f3f3f3;
+  font-size: 16px;
+}
+
+/* Portrait and Landscape */
+@media only screen and (max-device-width: 568px) {
+  h1.title {
+    font-size: 90px;
+  }
+  .cta {
+    font-size: 40px;
+  }
+  address {
+    font-size: 24px;
+  }
+  nav {
+    font-size: 40px;
+    margin: 40px 0;
+  }
+  #logo-wrapper {
+    padding: 55px 0;
+  }
+  .cta-text {
+    display: block;
+  }
+}
+
+
+/* Play
+Copy to Clipboard */
+::backdrop {
+  background-image: linear-gradient(
+    45deg,
+    #000,
+    #000,
+    #000,
+    #000
+  );
+  opacity: 0.75;
+}
