@@ -1,3 +1,11 @@
-.DS_Store
+node_modules/
+dist/
+
+# Lockfile intentionally not committed — gigi-static deploys on Cloudflare Pages
+# with `npm install` (matches the web-static pattern).
+package-lock.json
+
 *.log
-.wrangler/
+.env
+.env.*
+.DS_Store
