@@ -3,7 +3,9 @@
 html { scroll-behavior: smooth; }
 body { margin: 0; }
 
-.home-page {
+/* Site palette lives at :root so the shared SiteHeader is styled wherever it
+   renders — including the ordering slice, where it sits outside .home-page. */
+:root {
   --home-red: #981b1e;
   --home-red-dark: #641114;
   --home-gold: #f6b83c;
@@ -11,6 +13,8 @@ body { margin: 0; }
   --home-paper: #fffcf5;
   --home-ink: #211715;
   --home-muted: #6d5c55;
+}
+.home-page {
   min-width: 320px;
   color: var(--home-ink);
   font-family: 'DM Sans', system-ui, sans-serif;
