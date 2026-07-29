@@ -20,6 +20,8 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
+html, body, #root { min-height: 100%; }
+
 body {
   margin: 0;
   color: var(--gigi-text-primary);
@@ -71,15 +73,27 @@ button, input { font: inherit; }
 .gigi-button--full { width: 100%; }
 
 .gigi-mobile-shell {
-  width: 390px;
-  height: 844px;
+  width: 100%;
+  min-height: 100dvh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  border: 1px solid var(--gigi-border);
-  border-radius: var(--gigi-radius-lg);
+  border: 0;
+  border-radius: 0;
+  background: var(--gigi-canvas);
+}
+
+.gigi-ordering-head {
+  min-height: 68px;
+  flex: 0 0 68px;
+  display: flex;
+  align-items: center;
+  padding: 0 18px;
+  border-bottom: 1px solid var(--gigi-brand-gold);
   background: var(--gigi-surface);
 }
+.gigi-ordering-head h1 { margin: 0; color: var(--gigi-brand-red); font-size: 24px; line-height: 30px; }
 
 .gigi-brand-header {
   height: 92px;
@@ -282,10 +296,95 @@ button, input { font: inherit; }
   background: var(--gigi-surface);
   box-shadow: 0 3px 12px rgb(30 26 24 / 6%);
 }
+.gigi-config-section { min-width: 0; }
+.gigi-config-section:not(.gigi-half-config-section) { display: flex; flex-direction: column; gap: 10px; }
+.gigi-checkout-form { width: 100%; display: flex; flex-direction: column; gap: 16px; }
 .gigi-confirmation { align-items: center; text-align: center; padding-top: 24px; }
 .gigi-confirmation__logo { width: 76px; height: 76px; object-fit: contain; }
 .gigi-help { color: var(--gigi-brand-red) !important; font-size: 13px !important; font-weight: 500; }
 
-@media (max-width: 420px) {
-  .gigi-mobile-shell { width: 100vw; min-height: 100dvh; height: 100dvh; border-radius: 0; }
+@media (min-width: 768px) {
+  .gigi-ordering-head,
+  .gigi-top-bar {
+    padding-inline: max(28px, calc((100% - 1200px) / 2));
+  }
+
+  .gigi-category-tabs {
+    height: 60px;
+    flex-basis: 60px;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 28px;
+  }
+
+  .gigi-screen-content,
+  .gigi-customization {
+    width: calc(100% - 48px);
+    max-width: 1200px;
+    align-self: center;
+    padding: 32px 0 36px;
+  }
+
+  .gigi-screen-content--browse {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-content: start;
+    gap: 20px;
+  }
+
+  .gigi-screen-content--cart,
+  .gigi-customization--checkout {
+    max-width: 760px;
+  }
+
+  .gigi-customization--configure:not(.gigi-customization--half) {
+    max-width: 860px;
+  }
+
+  .gigi-customization--half {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+      "note note"
+      "size size"
+      "half-left half-right"
+      "extra-left extra-right"
+      "quantity quantity";
+    align-content: start;
+    gap: 20px;
+  }
+
+  .gigi-customization--half .gigi-half-price-note { grid-area: note; }
+  .gigi-customization--half .gigi-config-section--size { grid-area: size; }
+  .gigi-customization--half .gigi-config-section--halfLeft { grid-area: half-left; }
+  .gigi-customization--half .gigi-config-section--halfRight { grid-area: half-right; }
+  .gigi-customization--half .gigi-config-section--extraLeft { grid-area: extra-left; }
+  .gigi-customization--half .gigi-config-section--extraRight { grid-area: extra-right; }
+  .gigi-customization--half .gigi-config-section--quantity { grid-area: quantity; }
+  .gigi-customization--half .gigi-config-section--size .gigi-choice-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .gigi-sticky-action {
+    min-height: 80px;
+    flex-basis: 80px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-inline: max(28px, calc((100% - 1200px) / 2));
+    border-top: 1px solid #e3dfdc;
+  }
+  .gigi-sticky-action > .gigi-button { width: min(100%, 380px); }
+  .gigi-sticky-action--double {
+    flex-basis: 80px;
+    flex-direction: row;
+  }
+  .gigi-sticky-action--double > .gigi-button { width: min(100%, 300px); }
+}
+
+@media (min-width: 1100px) {
+  .gigi-screen-content--browse { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 767px) {
+  .gigi-mobile-shell { width: 100vw; }
 }
