@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img">
+  <title>Steak and Green Peppers menu icon</title>
+  <circle cx="48" cy="48" r="43" fill="#FFF3D6" stroke="#C61B2B" stroke-width="5"/>
+  <circle cx="48" cy="48" r="37.5" fill="#F7C65A" opacity=".22"/>
+  <g transform="rotate(-10 48 49)">
+    <path d="M12 60q2-18 15-27 8-5 43-1 12 2 15 15l-5 20q-2 7-11 8l-43-2q-12-1-14-13Z" fill="#D98B39" stroke="#6F1D24" stroke-width="3"/>
+    <path d="M17 59q4-16 14-21 16-5 43-1 7 2 7 11l-4 13q-27-8-60-2Z" fill="#F4E0A5" stroke="#6F1D24" stroke-width="1.8"/>
+    <path d="M18 58q29-12 61-3l-2 8q-28-8-60 2Z" fill="#F4E0A5"/>
+    <path d="M24 50q5-3 10 1l-2 6q-5 2-8-2Z" fill="#784029" stroke="#6F1D24" stroke-width="1.2"/><path d="M33 58q5-8 10 0M34 60q4-5 8 0" fill="none" stroke="#66834D" stroke-width="3" stroke-linecap="round"/>
+    <g fill="none" stroke="#A9B76A" stroke-width="2.1" stroke-linecap="round">
+    <path d="M22 45q6-5 11 1t10-1 10 1 10-1 10 2"/><path d="M22 50q7-5 13 1t11-1 12 1 14-1"/>
+    <path d="M25 40l7 12m2-15 5 14m5-14 3 15m6-14-1 14m9-12-4 13m12-10-7 11"/>
+  </g>
+    <g stroke="#6F1D24" stroke-width="1.4">
+      <circle cx="36" cy="45" r="7.2" fill="#E45E47"/><circle cx="62" cy="44" r="7.2" fill="#E45E47"/>
+      <path d="M32 45h8m-4-4v8M58 44h8m-4-4v8" stroke="#F4E0A5" stroke-width="1.2"/>
+    </g>
+    <path d="M23 66q24 6 51 2M24 35q22-8 48 0" fill="none" stroke="#FFF3D6" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+  </g>
+</svg>

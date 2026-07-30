@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img">
+  <title>Spaghetti with Meat Sauce menu icon</title>
+  <circle cx="48" cy="48" r="43" fill="#FFF3D6" stroke="#C61B2B" stroke-width="5"/>
+  <circle cx="48" cy="48" r="37.5" fill="#F7C65A" opacity=".22"/>
+  <path d="M20 47h56l-5 23q-2 7-10 8H35q-8-1-10-8Z" fill="#FFFDF6" stroke="#6F1D24" stroke-width="3"/>
+    <ellipse cx="48" cy="47" rx="28" ry="12" fill="#D8492F" stroke="#6F1D24" stroke-width="3"/>
+    <g fill="none" stroke="#F4E0A5" stroke-width="2.4" stroke-linecap="round">
+      <path d="M28 44q9-8 17 1t18-1"/><path d="M32 50q8-8 16 0t17-1"/><path d="M37 40q6 8 14 0t12 3"/>
+    </g><circle cx="39" cy="44" r="3" fill="#784029"/><circle cx="53" cy="49" r="3" fill="#784029"/><circle cx="60" cy="42" r="2.6" fill="#784029"/>
+</svg>

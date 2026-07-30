@@ -1,0 +1,261 @@
+{
+  "PLA001": {
+    "itemId": "PLA001",
+    "category": "pizza",
+    "nameEn": "Plain",
+    "nameFr": "Ordinaire",
+    "src": "/images/menu-icons/PLA001.svg"
+  },
+  "MUS002": {
+    "itemId": "MUS002",
+    "category": "pizza",
+    "nameEn": "Mushrooms",
+    "nameFr": "Champignons",
+    "src": "/images/menu-icons/MUS002.svg"
+  },
+  "GRE003": {
+    "itemId": "GRE003",
+    "category": "pizza",
+    "nameEn": "Green Peppers",
+    "nameFr": "Piments verts",
+    "src": "/images/menu-icons/GRE003.svg"
+  },
+  "ONI004": {
+    "itemId": "ONI004",
+    "category": "pizza",
+    "nameEn": "Onions",
+    "nameFr": "Oignons",
+    "src": "/images/menu-icons/ONI004.svg"
+  },
+  "PEP005": {
+    "itemId": "PEP005",
+    "category": "pizza",
+    "nameEn": "Pepperoni",
+    "nameFr": "Pepperoni",
+    "src": "/images/menu-icons/PEP005.svg"
+  },
+  "CAP006": {
+    "itemId": "CAP006",
+    "category": "pizza",
+    "nameEn": "Capicollo",
+    "nameFr": "Capicollo",
+    "src": "/images/menu-icons/CAP006.svg"
+  },
+  "BAC007": {
+    "itemId": "BAC007",
+    "category": "pizza",
+    "nameEn": "Bacon",
+    "nameFr": "Bacon",
+    "src": "/images/menu-icons/BAC007.svg"
+  },
+  "BAC008": {
+    "itemId": "BAC008",
+    "category": "pizza",
+    "nameEn": "Bacon + Pepperoni",
+    "nameFr": "Bacon + Pepperoni",
+    "src": "/images/menu-icons/BAC008.svg"
+  },
+  "ANC009": {
+    "itemId": "ANC009",
+    "category": "pizza",
+    "nameEn": "Anchovies",
+    "nameFr": "Anchois",
+    "src": "/images/menu-icons/ANC009.svg"
+  },
+  "ALL010": {
+    "itemId": "ALL010",
+    "category": "pizza",
+    "nameEn": "All Dressed",
+    "nameFr": "Toute Garnie",
+    "src": "/images/menu-icons/ALL010.svg"
+  },
+  "HAW011": {
+    "itemId": "HAW011",
+    "category": "pizza",
+    "nameEn": "Hawaiian",
+    "nameFr": "Hawaïenne",
+    "src": "/images/menu-icons/HAW011.svg"
+  },
+  "VEG012": {
+    "itemId": "VEG012",
+    "category": "pizza",
+    "nameEn": "Vegetarian",
+    "nameFr": "Végétarienne",
+    "src": "/images/menu-icons/VEG012.svg"
+  },
+  "DEL013": {
+    "itemId": "DEL013",
+    "category": "pizza",
+    "nameEn": "Deluxe",
+    "nameFr": "Deluxe",
+    "src": "/images/menu-icons/DEL013.svg"
+  },
+  "SPE014": {
+    "itemId": "SPE014",
+    "category": "pizza",
+    "nameEn": "Spécial \"GIGI\"",
+    "nameFr": "Spécial « GIGI »",
+    "src": "/images/menu-icons/SPE014.svg"
+  },
+  "PIZ015": {
+    "itemId": "PIZ015",
+    "category": "pizza",
+    "nameEn": "Pizza Super",
+    "nameFr": "Pizza Super",
+    "src": "/images/menu-icons/PIZ015.svg"
+  },
+  "STE016": {
+    "itemId": "STE016",
+    "category": "subs",
+    "nameEn": "Steak and Capicollo",
+    "nameFr": "Steak et capicollo",
+    "src": "/images/menu-icons/STE016.svg"
+  },
+  "STE017": {
+    "itemId": "STE017",
+    "category": "subs",
+    "nameEn": "Steak and Pepperoni",
+    "nameFr": "Steak et pepperoni",
+    "src": "/images/menu-icons/STE017.svg"
+  },
+  "STE018": {
+    "itemId": "STE018",
+    "category": "subs",
+    "nameEn": "Steak and Green Peppers",
+    "nameFr": "Steak et piments verts",
+    "src": "/images/menu-icons/STE018.svg"
+  },
+  "STE019": {
+    "itemId": "STE019",
+    "category": "subs",
+    "nameEn": "Steak and Mushrooms",
+    "nameFr": "Steak et champignons",
+    "src": "/images/menu-icons/STE019.svg"
+  },
+  "STE020": {
+    "itemId": "STE020",
+    "category": "subs",
+    "nameEn": "Steak, Steak and More Steak",
+    "nameFr": "Steak, steak et steak",
+    "src": "/images/menu-icons/STE020.svg"
+  },
+  "VEG021": {
+    "itemId": "VEG021",
+    "category": "subs",
+    "nameEn": "Vegetarian",
+    "nameFr": "Végétarien",
+    "src": "/images/menu-icons/VEG021.svg"
+  },
+  "SPE022": {
+    "itemId": "SPE022",
+    "category": "subs",
+    "nameEn": "Spécial \"GIGI\"",
+    "nameFr": "Spécial « GIGI »",
+    "src": "/images/menu-icons/SPE022.svg"
+  },
+  "PEP023": {
+    "itemId": "PEP023",
+    "category": "subs",
+    "nameEn": "Pepperoni",
+    "nameFr": "Pepperoni",
+    "src": "/images/menu-icons/PEP023.svg"
+  },
+  "CAP024": {
+    "itemId": "CAP024",
+    "category": "subs",
+    "nameEn": "Capicollo and Cheese (cold sub)",
+    "nameFr": "Capicollo et fromage (sous-marin froid)",
+    "src": "/images/menu-icons/CAP024.svg"
+  },
+  "SPA025": {
+    "itemId": "SPA025",
+    "category": "pasta",
+    "nameEn": "Spaghetti with Meat Sauce",
+    "nameFr": "Spaghetti, sauce à la viande",
+    "src": "/images/menu-icons/SPA025.svg"
+  },
+  "LAS026": {
+    "itemId": "LAS026",
+    "category": "pasta",
+    "nameEn": "Lasagna with Meat Sauce",
+    "nameFr": "Lasagne, sauce à la viande",
+    "src": "/images/menu-icons/LAS026.svg"
+  },
+  "BAK027": {
+    "itemId": "BAK027",
+    "category": "pasta",
+    "nameEn": "Baked Spaghetti",
+    "nameFr": "Spaghetti au four",
+    "src": "/images/menu-icons/BAK027.svg"
+  },
+  "BAK028": {
+    "itemId": "BAK028",
+    "category": "pasta",
+    "nameEn": "Baked Lasagna",
+    "nameFr": "Lasagne au four",
+    "src": "/images/menu-icons/BAK028.svg"
+  },
+  "FRE029": {
+    "itemId": "FRE029",
+    "category": "extras",
+    "nameEn": "French Fries",
+    "nameFr": "Pommes de terre frites",
+    "src": "/images/menu-icons/FRE029.svg"
+  },
+  "FRE030": {
+    "itemId": "FRE030",
+    "category": "extras",
+    "nameEn": "French Fries with Sauce",
+    "nameFr": "Pommes de terre frites avec sauce",
+    "src": "/images/menu-icons/FRE030.svg"
+  },
+  "POU031": {
+    "itemId": "POU031",
+    "category": "extras",
+    "nameEn": "Poutine",
+    "nameFr": "Poutine",
+    "src": "/images/menu-icons/POU031.svg"
+  },
+  "ITA032": {
+    "itemId": "ITA032",
+    "category": "extras",
+    "nameEn": "Italian Poutine",
+    "nameFr": "Poutine italienne",
+    "src": "/images/menu-icons/ITA032.svg"
+  },
+  "CHE033": {
+    "itemId": "CHE033",
+    "category": "extras",
+    "nameEn": "Chef's Salad",
+    "nameFr": "Salade du chef",
+    "src": "/images/menu-icons/CHE033.svg"
+  },
+  "SOF034": {
+    "itemId": "SOF034",
+    "category": "drinks",
+    "nameEn": "Soft Drinks",
+    "nameFr": "Boissons gazeuses",
+    "src": "/images/menu-icons/SOF034.svg"
+  },
+  "BRI035": {
+    "itemId": "BRI035",
+    "category": "drinks",
+    "nameEn": "Brio",
+    "nameFr": "Brio",
+    "src": "/images/menu-icons/BRI035.svg"
+  },
+  "TEA036": {
+    "itemId": "TEA036",
+    "category": "drinks",
+    "nameEn": "Tea or Coffee",
+    "nameFr": "Thé ou café",
+    "src": "/images/menu-icons/TEA036.svg"
+  },
+  "PER037": {
+    "itemId": "PER037",
+    "category": "drinks",
+    "nameEn": "Perrier",
+    "nameFr": "Perrier",
+    "src": "/images/menu-icons/PER037.svg"
+  }
+}

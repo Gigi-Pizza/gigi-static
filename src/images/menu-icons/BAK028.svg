@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img">
+  <title>Baked Lasagna menu icon</title>
+  <circle cx="48" cy="48" r="43" fill="#FFF3D6" stroke="#C61B2B" stroke-width="5"/>
+  <circle cx="48" cy="48" r="37.5" fill="#F7C65A" opacity=".22"/>
+  <g transform="rotate(-5 48 48)"><path d="M23 61l12-31 39 9-11 32Z" fill="#D8492F" stroke="#6F1D24" stroke-width="3"/>
+    <path d="M27 56l10-21 32 7-8 23Z" fill="#F7C65A" stroke="#6F1D24" stroke-width="2"/>
+    <path d="M32 49l30 7M36 39l29 7" stroke="#D8492F" stroke-width="3"/>
+    <path d="M33 61q5-6 10 0t10 0 9 1" fill="none" stroke="#FFFDF6" stroke-width="2"/>
+    </g>
+</svg>
