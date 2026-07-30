@@ -140,10 +140,29 @@ button, input { font: inherit; }
   display: flex;
   gap: 6px;
   overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-inline: contain;
+  scroll-behavior: smooth;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 2px;
   scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x;
 }
 .gigi-category-tabs::-webkit-scrollbar { display: none; }
-.gigi-category-tabs .gigi-button { white-space: nowrap; }
+.gigi-category-tabs .gigi-button {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  white-space: nowrap;
+}
+.gigi-category-tabs .home-menu-category-icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+  flex: 0 0 24px;
+  filter: none;
+}
 
 .gigi-menu-card {
   width: 100%;
@@ -563,6 +582,16 @@ button, input { font: inherit; }
 
 @media (max-width: 767px) {
   .gigi-mobile-shell { width: 100vw; }
+  .gigi-ordering-tabsbar {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 8px;
+    padding-block: 10px;
+  }
+  .gigi-ordering-tabsbar .gigi-category-tabs {
+    width: 100%;
+    flex: 0 0 auto;
+  }
 }
 
 @media (max-width: 359px) {
